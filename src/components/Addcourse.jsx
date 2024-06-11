@@ -14,7 +14,7 @@ const Addcourse = () => {
         }
     )
     const inputHandler = (event) => {
-        setData({ ...data, [event.target.name]: event.target.value })
+        setData({ ...data, [event.target.name]: event.target.value })}
 
         const readValue = () => {
             console.log(data)
@@ -25,7 +25,7 @@ const Addcourse = () => {
                         alert("success")
                     }
                     else {
-                        alert("error")
+                        alert("ok")
                     }
                 }
 
@@ -76,5 +76,5 @@ const Addcourse = () => {
 
         )
     }
-}
+
 export default Addcourse
